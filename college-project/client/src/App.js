@@ -10,7 +10,7 @@ import AuthRouter from "./AuthRoute";
 import { history } from "./store";
 // import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 // import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
-
+// sample test added
 const SwitchRouter = ({ condition }) => {
   if (condition) {
     return <ProtectedRoute />;
