@@ -1,0 +1,41 @@
+{
+  "folders": [{ "path": "client" }, { "path": "server" }],
+  "settings": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.autoIndent": "full",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "eslint.workingDirectories": ["./client", "./server"],
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.printWidth": 120,
+    "prettier.tabWidth": 2,
+    "prettier.useTabs": false,
+    "prettier.semi": true,
+    "prettier.singleQuote": false,
+    "prettier.trailingComma": "none",
+    "prettier.arrowParens": "always",
+    "prettier.bracketSpacing": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.associations": {
+      ".env.override": "dotenv"
+    },
+    "[scss]": {
+      "editor.defaultFormatter": "vscode.css-language-features"
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "usernamehw.errorlens",
+      "donjayamanne.git-extension-pack",
+      "waderyan.nodejs-extension-pack"
+    ]
+  }
+}
